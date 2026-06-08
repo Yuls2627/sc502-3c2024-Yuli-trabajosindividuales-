@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f8fc;
+}
+
+.menu{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    list-style:none;
+    background:#0b4f8a;
+    padding:20px;
+    margin:0;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+}
+
+.menu a:hover{
+    color:#87cefa;
+}
+
+.perfil{
+    text-align:center;
+    background:white;
+    margin:30px auto;
+    padding:30px;
+    width:70%;
+    border-radius:10px;
+}
+
+.nombre{
+    color:#0b4f8a;
+}
+
+.especialidad{
+    color:#555;
+}
+
+button{
+    background:#0b4f8a;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#08365d;
+}
+
+.comentarios{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.tarjeta{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    text-align:center;
+}
